@@ -1,0 +1,31 @@
+The following are the differences between vector and array −
+Vector is a sequential container to store elements and not index based.
+Array stores a fixed-size sequential collection of elements of the same type and it is index based.
+Vector is dynamic in nature so, size increases with insertion of elements.
+As array is fixed size, once initialized can’t be resized.
+Vector occupies more memory.
+Array is memory efficient data structure.
+Vector takes more time in accessing elements.
+Array access elements in constant time irrespective of their location as elements are arranged in a contiguous memory allocation.
+
+======================================================================================================================================================
+
+    Vector	                                                                         List
+
+It has contiguous memory.	                                              While it has non-contiguous memory.
+
+It is synchronized.                                                     While it is not synchronized.
+
+Vector may have a default size.	                                        List does not have default size.
+
+In vector, each element only requires the space for itself only.	      In list, each element requires extra space for the node which holds the element, 
+                                                                        including pointers to the next and previous elements in the list.
+                                                                        
+Insertion at the end requires constant time but                         Insertion is cheap no matter where in the list it occurs.
+insertion elsewhere is costly.	                                  
+
+Deletion at the end of the vector needs constant time but               Deletion is cheap no matter where in the list it occurs.
+for the rest it is O(n).
+Random access of elements is possible.	                                Random access of elements is not possible.
+
+=================================================================================================================================================================
