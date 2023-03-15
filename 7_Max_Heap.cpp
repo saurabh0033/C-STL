@@ -1,5 +1,5 @@
 
-//in max heap, elements are stored in non-decreasing order;
+//in max heap, elements are stored in decreasing order;
 // hence it is known as Max Heap
 
 #include<bits/stdc++.h>
